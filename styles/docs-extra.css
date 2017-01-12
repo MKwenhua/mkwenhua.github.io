@@ -1,0 +1,116 @@
+.extra-details {
+    overflow: hidden;
+    -webkit-transition: all 0.25s ease-out 0s;
+    -moz-transition: all 0.25s ease-out 0s;
+    transition: all 0.25s ease-out 0s;
+}
+
+.enclosed {
+    height: 22px;
+}
+
+.expanded {
+    min-height: 300px;
+    height: auto;
+}
+
+.p2 {
+    padding-top: 4px;
+}
+
+.nav-right-box {
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+    margin-right: 10px;
+}
+
+.code-i {
+    border: 1px solid;
+    font-size: 1.3em!important;
+    border-radius: 2px;
+    padding: 0px 4px;
+}
+
+.web-i {
+    border: 1px solid;
+    font-size: 1em;
+    line-height: 1;
+    border-radius: 2px;
+    padding: 2px 4px;
+}
+
+.nav-right-box i {
+    display: inline-block;
+    color: #00d8ff;
+}
+
+select.setting-sele {
+    font-weight: 500;
+    color: #00d8ff;
+    cursor: pointer;
+    display: inline-block;
+    text-transform: none;
+    background: 0 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    padding: 0 10px;
+    font-size: 16px;
+    font-weight: 800;
+    vertical-align: top;
+    border-radius: 0;
+    border: none;
+}
+
+.click-to-expand {
+    padding: 2px;
+    cursor: pointer;
+    height: 22px;
+    font-weight: 600;
+}
+
+.click-to-expand:hover {
+    color: #03A9F4;
+}
+
+.click-to-hide {
+    padding: 2px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.click-to-hide:hover {
+    color: #03A9F4;
+}
+
+#explain {
+    padding-bottom: 40px;
+}
+
+.m-right {
+    margin-left: 10px;
+}
+
+div.enclosed .click-to-hide {
+    display: none;
+}
+
+div.enclosed .click-to-expand {
+    display: block;
+}
+
+div.expanded .click-to-hide {
+    display: block;
+}
+
+div.expanded .click-to-expand {
+    display: none;
+}
+
+.code-boxes-ff {
+    height: 100%;
+    padding: 0px;
+}

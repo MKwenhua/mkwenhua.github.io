@@ -1,0 +1,36 @@
+{
+  "name": "mkwenhua.github.io",
+  "version": "1.0.0",
+  "description": "Tutorials for class",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MKwenhua/mkwenhua.github.io.git"
+  },
+  "keywords": [
+    "tutorial",
+    "node",
+    "node.js",
+    "javascript",
+    "lesson"
+  ],
+  "author": "Peter Halloran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MKwenhua/mkwenhua.github.io/issues"
+  },
+  "homepage": "https://github.com/MKwenhua/mkwenhua.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.3.1",
+    "gulp-strip-css-comments": "^1.2.0",
+    "gulp-util": "^3.0.8"
+  }
+}
