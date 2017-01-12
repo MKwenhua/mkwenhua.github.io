@@ -8,13 +8,13 @@ html {
 }
 
 body {
-    color: #fff;
-    font-family: 'Gotham', sans-serif;
+    color: #3c4859;
+    font-family: Gotham, sans-serif;
     font-size: 14px;
-    line-height: 1.5;
     -webkit-font-smoothing: antialiased;
     padding: 0;
     margin: 0;
+    line-height: 1.35;
     position: relative;
     min-height: 100vh;
 }
@@ -30,5 +30,3 @@ body.on-main-view {
 .center-text {
     text-align: center;
 }
-
-
